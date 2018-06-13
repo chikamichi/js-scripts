@@ -30,7 +30,7 @@ class Component {
       this.componentName
     }.css`;
 
-    fs.appendFileSync(componentStyleFilename, "h1 { display: 'flex' }");
+    fs.appendFileSync(componentStyleFilename, '');
   }
 
   create() {
